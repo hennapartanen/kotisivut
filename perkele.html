@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta charset="viewport" content="widht=device-widht, initial-scale=1.0">
+  <title> Lämpötilamuunnin </title>
+</head>
+<body>
+<H1>Lämpötilamuunnin</H1>
+<p>
+    Valitse laskutoimitus:<br>
+    <select name="toiminto" id="toiminto">
+      <option value="Cels"> Celcius -> Fahrenheit</option>
+      <option value="Fahr"> Fahrenheit -> Celcius</option>
+    </select>
+</p>
+<input type="text" name="Cels" id="Cels" placeholder="Syötä lämpötila">
+<input type="text" name="Fahr" id="Fahr" placeholder="Syötä lämpötila">
+<br>
+
+
+
+<button onclick="muunna()">muunna</button>
+
+<p> Vastaus: <span id="vastaus"></span> </p>
+<script src="saatana.js"></script>
+
+
+</body>
+</html>
+
